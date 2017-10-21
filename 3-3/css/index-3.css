@@ -1,0 +1,184 @@
+body {
+  background: #F7F7F7; }
+
+header {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  header > div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.16rem 0.18rem;
+    box-sizing: border-box; }
+    header > div:nth-of-type(1) img {
+      width: 2.088rem; }
+  header > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.4rem; }
+  header > div:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    font-size: 0.32rem;
+    display: flex;
+    text-align: center;
+    color: #ccc;
+    margin: 0.16rem 0.18rem; }
+    header > div:nth-of-type(3) div:nth-of-type(1) span {
+      font-size: 0.225rem;
+      padding-bottom: 0.3rem; }
+    header > div:nth-of-type(3) div:nth-of-type(2) span {
+      font-size: 0.165rem;
+      margin-bottom: 0.3rem; }
+
+.lc {
+  width: 100%; }
+  .lc > div {
+    position: relative; }
+    .lc > div img {
+      width: 100%;
+      float: left; }
+    .lc > div span {
+      position: absolute; }
+  .lc div:nth-of-type(2) span:nth-of-type(1), .lc div:nth-of-type(4) span:nth-of-type(1) {
+    font-size: 0.36rem;
+    color: #FF4351;
+    top: 0.55rem;
+    left: 1rem; }
+  .lc div:nth-of-type(2) span:nth-of-type(2), .lc div:nth-of-type(4) span:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #000;
+    top: 1.97rem;
+    left: 1.75rem; }
+  .lc div:nth-of-type(2) span:nth-of-type(3), .lc div:nth-of-type(4) span:nth-of-type(3) {
+    font-size: 0.28rem;
+    color: #000;
+    top: 3.55rem;
+    left: 3.9rem; }
+  .lc div:nth-of-type(2) span:nth-of-type(4), .lc div:nth-of-type(4) span:nth-of-type(4) {
+    font-size: 0.28rem;
+    color: #000;
+    top: 5.15rem;
+    left: 1.75rem; }
+  .lc div:nth-of-type(2) span:nth-of-type(5), .lc div:nth-of-type(4) span:nth-of-type(5) {
+    font-size: 0.28rem;
+    color: #000;
+    top: 6.7rem;
+    left: 3.9rem; }
+  .lc div:nth-of-type(3) span:nth-of-type(1) {
+    font-size: 0.36rem;
+    color: dodgerblue;
+    top: 0.55rem;
+    left: 4.7rem; }
+  .lc div:nth-of-type(3) span:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #000;
+    top: 2.05rem;
+    left: 3.9rem; }
+  .lc div:nth-of-type(3) span:nth-of-type(3) {
+    font-size: 0.28rem;
+    left: 1.75rem;
+    color: #000;
+    top: 3.7rem; }
+  .lc div:nth-of-type(3) span:nth-of-type(4) {
+    font-size: 0.28rem;
+    color: #000;
+    left: 3.9rem;
+    top: 5.25rem; }
+  .lc div:nth-of-type(3) span:nth-of-type(5) {
+    font-size: 0.28rem;
+    color: #000;
+    left: 1.75rem;
+    top: 6.85rem; }
+
+.wzjs {
+  width: 100%;
+  background: #FFF;
+  margin-top: 0.15rem; }
+  .wzjs .js {
+    width: 97%;
+    margin: auto;
+    padding: 0.36rem 0rem;
+    font-size: 0.30rem;
+    color: #333;
+    text-align: justify; }
+    .wzjs .js p {
+      text-indent: 1rem; }
+
+footer {
+  margin-top: 0.18rem;
+  background: #fff; }
+  footer div {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div span {
+      font-size: 0.32rem; }
+    footer div p {
+      font-size: 0.28rem;
+      color: #333;
+      padding: 0; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.24rem; }
+    footer ul li {
+      font-size: 0.28rem; }
+  footer > p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    padding-bottom: 0.24rem; }
+
+.gg {
+  width: 100%;
+  height: 1.06rem;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  z-index: 100; }
+  .gg img {
+    position: absolute; }
+  .gg img:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    width: 0.6rem; }
+  .gg img:nth-of-type(2) {
+    top: 0.08rem;
+    left: 0.8rem;
+    width: 1.12rem; }
+  .gg p {
+    width: 50%;
+    font-size: 0.32rem;
+    color: #fff;
+    font-style: oblique;
+    margin-top: 0.2rem;
+    margin-left: 1.3rem;
+    text-align: right; }
+    .gg p span {
+      color: #EED215; }
+  .gg > span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #FEB605;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.4rem;
+    line-height: 0.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0.08rem;
+    top: 0.32rem; }
+
+/*# sourceMappingURL=index-3.css.map */

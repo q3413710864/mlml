@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+
+.header{
+    width:100%;
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #ccc;
+    .hea_left img{
+        width: 2.2rem;
+        
+     }  
+     .hea_centent{
+         font-size:0.4rem;
+         align-items: center;
+        display: flex;
+     } 
+     
+     .hea_right{
+         font-size:0.20rem;
+         width:1.5rem;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         text-align: center;
+        .you1{
+         height:0.8rem;
+         margin-top: 0.09rem;
+         span{
+             font-size: 0.40rem;
+         }
+         p{
+              margin-top: 0.1rem;
+              font-size:0.16rem;
+         }
+     }
+      .you2{
+        
+         height:0.8;
+          margin-top: 0.1rem;
+          span{
+             font-size: 0.33rem;
+         }
+          p{
+              margin-top: 0.1rem;
+              font-size:0.16rem;
+         }
+     } 
+    }
+}
+.nr{
+    width:100%;
+    ul{
+        width:100%;
+           li{
+               width:100%;
+               border-bottom: 0.01rem solid #ccc;
+                   >div{
+                        width:100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        div:nth-of-type(1){
+                            width:30%;
+                            display: flex;
+                            align-items: center;
+                            div{
+                                height:0.6rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background: #ccc;
+                                border-radius:50%;
+                                margin:0.36rem 0.2rem;
+                                span{
+                                    font-size:0.38rem;
+                                    color:#fff;
+                                }    
+                            }
+                            p{
+                                font-size:0.28rem;
+                                color:#00BE9C;
+                            }
+                            
+                         }
+                         div:nth-of-type(2){
+                             text-align: center;
+                             width:30%;
+                             font-size:0.28rem;
+                             color:#999;
+                             
+                            
+                         }
+                         
+                       }
+                    div:nth-of-type(2){
+                        width:100%;
+                        
+                        p{  
+                            padding:0rem 0.2rem;
+                            padding-bottom: 0.2rem;
+                            width:100%;
+                            text-align: justify;
+                            font-size:0.36rem;  
+                            line-height: 0.5rem;
+                        }
+                        
+                    }
+                       
+                       
+           }
+    }
+}
+//上下页
+div.hy{
+    background: #fff;
+    .xiamian{
+    width: auto;
+    margin: 0.18rem 0.16rem;
+   background-color:white;
+   font-size:#fff;
+    ul{
+        width: 100%;
+        height:0.82rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border:0.01rem solid #ccc; 
+        li{
+            width: 33%;
+            text-align: center;
+             line-height: 0.82rem;
+            font-size: 0.36rem;
+        }
+        li:nth-of-type(1){
+            background-color:#39c893;
+            color: white;
+        }
+        li:nth-of-type(3){
+            background-color:#39c893;
+            color: white;
+        }
+    }
+}
+.zi{
+    background: white;
+    width: auto;
+    margin: 0 16px;
+    text-indent:0.4rem;
+    margin-top: 0.18rem;
+    font-size:0.28rem ;
+    line-height:0.3rem;
+}
+    
+}
+//文字介绍
+.wzjs{
+    width:100%;
+    background: #FFF;
+    margin-top:0.15rem;
+    .js{
+        width:97%;
+        margin: auto;
+        padding: 0.36rem 0rem;
+        font-size:0.30rem;
+        line-height: 0.4rem;
+        color:#333;
+        text-align: justify;
+        p{
+            text-indent: 1rem;
+        }
+    }
+}
+footer{
+    margin-top: 0.18rem;
+    background: #fff;
+    div{
+        width:100%;
+        height:0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            font-size:0.32rem;
+        }
+        p{
+            font-size:0.28rem;
+            color:#333;
+            padding: 0;
+        }
+    }
+    ul{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0.24rem;
+        li{
+            font-size:0.28rem;
+        }
+    }
+    >p{
+        width:100%;
+        font-size:0.28rem;
+        text-align: center;
+        padding-bottom: 0.24rem;
+    }
+}
+
+.gg{
+    width:100%;
+    height:1.06rem;
+    position:relative;
+    position: fixed;
+    bottom:0;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+//  display: none;
+    z-index: 100;
+    img{
+       position:absolute; 
+    }
+    img:nth-of-type(1){
+        top:0;
+        left:0;
+        width:0.6rem;
+    }
+    img:nth-of-type(2){
+        top:0.08rem;
+        left:0.8rem;
+        width:1.12rem;
+    }
+    p{
+        width:50%;
+        font-size:0.32rem;
+        color:#fff;
+        font-style: oblique;
+        margin-top:0.2rem;
+        margin-left:1.3rem;
+        text-align: right;
+
+        span{
+               color:#EED215;
+        }
+    }
+    >span{
+        display: inline-block;
+        width:1.75rem;
+        height:0.5rem;
+        background: #FEB605;
+        text-align: center;
+        font-size:0.24rem;
+        border-radius: 0.4rem;
+        line-height: 0.5rem;
+        color:#fff;
+        position: absolute;
+        right:0.08rem;
+        top:0.32rem;
+    }
+}
+//锚点链接
+.md{
+    width:0.94rem;
+    height:0.94rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.47rem;
+    background: #fff;
+    border:0.01rem solid #808080;
+    position: fixed;
+    right:0.16rem;
+    bottom:1.28rem;
+    z-index: 100;
+    a{
+        text-decoration: none;
+        font-size:0.4rem;
+        color:#9c9c9c;
+    }
+}

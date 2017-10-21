@@ -1,0 +1,219 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  border-bottom: 0.01rem solid #ccc; }
+  .header .hea_left img {
+    width: 2.2rem; }
+  .header .hea_centent {
+    font-size: 0.4rem;
+    align-items: center;
+    display: flex; }
+  .header .hea_right {
+    font-size: 0.20rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+    .header .hea_right .you1 {
+      height: 0.8rem;
+      margin-top: 0.09rem; }
+      .header .hea_right .you1 span {
+        font-size: 0.40rem; }
+      .header .hea_right .you1 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+    .header .hea_right .you2 {
+      height: 0.8;
+      margin-top: 0.1rem; }
+      .header .hea_right .you2 span {
+        font-size: 0.33rem; }
+      .header .hea_right .you2 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+
+.nr {
+  width: 100%; }
+  .nr ul {
+    width: 100%; }
+    .nr ul li {
+      width: 100%;
+      border-bottom: 0.01rem solid #ccc; }
+      .nr ul li > div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .nr ul li > div div:nth-of-type(1) {
+          width: 30%;
+          display: flex;
+          align-items: center; }
+          .nr ul li > div div:nth-of-type(1) div {
+            height: 0.6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ccc;
+            border-radius: 50%;
+            margin: 0.36rem 0.2rem; }
+            .nr ul li > div div:nth-of-type(1) div span {
+              font-size: 0.38rem;
+              color: #fff; }
+          .nr ul li > div div:nth-of-type(1) p {
+            font-size: 0.28rem;
+            color: #00BE9C; }
+        .nr ul li > div div:nth-of-type(2) {
+          text-align: center;
+          width: 30%;
+          font-size: 0.28rem;
+          color: #999; }
+      .nr ul li div:nth-of-type(2) {
+        width: 100%; }
+        .nr ul li div:nth-of-type(2) p {
+          padding: 0rem 0.2rem;
+          padding-bottom: 0.2rem;
+          width: 100%;
+          text-align: justify;
+          font-size: 0.36rem;
+          line-height: 0.5rem; }
+
+div.hy {
+  background: #fff; }
+  div.hy .xiamian {
+    width: auto;
+    margin: 0.18rem 0.16rem;
+    background-color: white;
+    font-size: #fff; }
+    div.hy .xiamian ul {
+      width: 100%;
+      height: 0.82rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: 0.01rem solid #ccc; }
+      div.hy .xiamian ul li {
+        width: 33%;
+        text-align: center;
+        line-height: 0.82rem;
+        font-size: 0.36rem; }
+      div.hy .xiamian ul li:nth-of-type(1) {
+        background-color: #39c893;
+        color: white; }
+      div.hy .xiamian ul li:nth-of-type(3) {
+        background-color: #39c893;
+        color: white; }
+  div.hy .zi {
+    background: white;
+    width: auto;
+    margin: 0 16px;
+    text-indent: 0.4rem;
+    margin-top: 0.18rem;
+    font-size: 0.28rem;
+    line-height: 0.3rem; }
+
+.wzjs {
+  width: 100%;
+  background: #FFF;
+  margin-top: 0.15rem; }
+  .wzjs .js {
+    width: 97%;
+    margin: auto;
+    padding: 0.36rem 0rem;
+    font-size: 0.30rem;
+    line-height: 0.4rem;
+    color: #333;
+    text-align: justify; }
+    .wzjs .js p {
+      text-indent: 1rem; }
+
+footer {
+  margin-top: 0.18rem;
+  background: #fff; }
+  footer div {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div span {
+      font-size: 0.32rem; }
+    footer div p {
+      font-size: 0.28rem;
+      color: #333;
+      padding: 0; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.24rem; }
+    footer ul li {
+      font-size: 0.28rem; }
+  footer > p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    padding-bottom: 0.24rem; }
+
+.gg {
+  width: 100%;
+  height: 1.06rem;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  z-index: 100; }
+  .gg img {
+    position: absolute; }
+  .gg img:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    width: 0.6rem; }
+  .gg img:nth-of-type(2) {
+    top: 0.08rem;
+    left: 0.8rem;
+    width: 1.12rem; }
+  .gg p {
+    width: 50%;
+    font-size: 0.32rem;
+    color: #fff;
+    font-style: oblique;
+    margin-top: 0.2rem;
+    margin-left: 1.3rem;
+    text-align: right; }
+    .gg p span {
+      color: #EED215; }
+  .gg > span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #FEB605;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.4rem;
+    line-height: 0.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0.08rem;
+    top: 0.32rem; }
+
+.md {
+  width: 0.94rem;
+  height: 0.94rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.47rem;
+  background: #fff;
+  border: 0.01rem solid #808080;
+  position: fixed;
+  right: 0.16rem;
+  bottom: 1.28rem;
+  z-index: 100; }
+  .md a {
+    text-decoration: none;
+    font-size: 0.4rem;
+    color: #9c9c9c; }
+
+/*# sourceMappingURL=index-18.css.map */

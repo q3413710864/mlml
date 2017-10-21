@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+div,body,ul,ol,li,dl,dd,table,img,span{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+h1,h2,h3,h4,h5,h6,p,a,header,footer{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4f4f4;    
+}
+//导航
+header{
+    width:100%;
+    height:1.2rem;
+    background: #39c893;
+    position:relative;
+    >span{
+        font-size:40px !important;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    >div{
+        width:98%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        div:nth-of-type(1){
+            width:1.1rem;
+            height:1.1rem;
+            margin-right:0.14rem;
+            img{
+                width:1.1rem;
+            }
+        }
+        div:nth-of-type(2){
+            display: flex;
+            flex-wrap: wrap;
+            font-size:25px;
+            img{
+                width:3rem;
+                
+                margin-bottom: 0.1rem;
+            }
+            p{
+                width:100%;
+                margin-top:0.1rem;
+                height:0.4rem;
+                background: #2BB280;
+                color:#fafafa;
+                border-radius:20px;
+                text-indent:0.1rem;
+                span{
+                    color:#FFFF00;
+                }
+            }
+        }
+           
+    }   
+}
+//搜索框
+.sousuo{
+    
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom:0.2rem;
+    background: #fff;
+    margin-bottom: 0.18rem;
+    div{
+       width:96%;
+//      width: auto;
+        margin:0px 8px;
+        display: flex;
+        align-items:center;
+        span{
+            width:1.38rem;
+            height:0.75rem;
+            text-align: center;
+            line-height: 0.8rem;
+            background: #39C893;
+            border:0.02 solid #39C893;
+            color:#fff;
+            font-size:30px;
+        }
+        input{
+            flex-grow:1;
+            height:0.7rem;
+            font-size:28px;
+            color:#aaa;
+            border:0.02rem solid #39C893;
+            text-indent:0.1rem;
+        }
+    }
+}
+//装修分类
+.fl{
+    width:100%;
+    background: #fff;    
+    .fl-a{
+        ul{
+            width:auto;
+            margin: 0 16px;
+            display: flex;
+            justify-content: space-around;
+         li{
+                width:33%;
+                height:0.75rem;
+                text-align: center;
+                line-height: 0.75rem;
+                border-bottom: 0.02rem solid #efefef;
+                font-size:36px;
+                list-style: none;
+            }
+            li:nth-of-type(1){
+                border-bottom: 0.02rem solid #39C893;
+            }    
+        }
+    }
+    .fl-b{
+        ul{
+            width:100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        li{
+            width:1.05rem;
+            list-style: none;
+            padding-bottom:0.36rem;
+            div{
+                width:1.05rem;
+                height:1.05rem;
+                border-radius: 50%;
+                border:0.02rem solid #39C893;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size:58px;
+                    color: #39C893;
+                }
+                margin:36px 0px 32px 0px;
+            }
+            p{
+                width:100%;
+                text-align: center;
+                font-size:25px;
+            }
+        }
+        
+    }
+    .lc{
+        width:auto;
+        margin:0 16px;
+        height:0.7rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size:36px;
+        color:#39C893;
+        border:0.02rem solid #39C893;
+        
+    }
+       padding-bottom:0.36rem;
+}
+
+//装修攻略
+.bt{
+        margin-top:0.18rem;
+        width:100%;
+        height:1.06rem;
+        box-sizing: border-box;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            width:95%;
+            height:0.42rem;
+            border-left:0.05rem solid #39C893;
+            line-height:0.42rem;
+                p{
+                    font-size:34px;
+                    color:#000;
+                    margin-left:0.1rem;
+                    span{
+                        font-size:28px;
+                        color:#999;
+                        margin-left:0.4rem;
+                    }
+            }
+        }
+    }
+//装修攻略
+.zxgl{
+    width:100%;
+    background: #fff;
+    padding-bottom: 0.28rem;
+    .zxgl-a{
+        width:98%;
+        margin:auto;
+        display: flex;
+        border-bottom: 0.01rem solid #ccc;
+        .xzgl-a_a{
+            width:1.68rem;
+            height:1.45rem;
+            margin-top:0.24rem;
+            margin-bottom: 0.22rem;
+            img{
+                width:1.68rem;
+                height:1.45rem;
+            }
+        }
+        .xzgl-a_b{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                margin-left:0.24rem;
+                font-size:0.36rem;
+                line-height:0.48rem;
+            }
+            p:nth-of-type(2){
+
+                color:#999;
+                >span{
+                    font-size:40px;
+                    span{
+                        font-size:40px;
+                    }
+                    margin-right:0.75rem;
+                }
+            }
+        }
+    }
+    
+    .zxgl-a:nth-of-type(1){
+        .xzgl-a_a{
+            margin-top:0rem;
+            margin-bottom: 0.22rem;
+        }
+    }
+    .zxgl-a:nth-of-type(8){
+        .xzgl-a_a{
+            margin-top:0.24rem;
+        }
+        border:none;
+    }
+    .hyh{
+        width:auto;
+        margin:0 16px;
+        height:0.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:36px;
+        color:#39C893;
+        border:0.01rem solid #ccc;
+        span{
+            font-size:36px;
+        }
+    }
+    
+}
+//文字介绍
+.wzjs{
+    width:100%;
+    background: #FFF;
+    margin-top:0.15rem;
+    .js{
+        width:97%;
+        margin: auto;
+        padding: 0.36rem 0rem;
+        font-size:30px;
+        color:#333;
+        text-align: justify;
+        p{
+            text-indent: 1rem;
+        }
+    }
+}
+footer{
+    margin-top: 0.18rem;
+    background: #fff;
+    div{
+        width:100%;
+        height:0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >span{
+            font-size:32px;
+        }
+        p{
+            font-size:28px;
+            color:#333;
+            padding: 0;
+        }
+    }
+    ul{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0.24rem;
+        list-style: none;
+        li{
+            font-size:28px;
+        }
+    }
+    >p{
+        width:100%;
+        font-size:24px;
+        text-align: center;
+        padding-bottom: 0.24rem;
+    }
+}
+.gg{
+    width:100%;
+    height:1.06rem;
+    position:relative;
+    position: fixed;
+    bottom:0;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+//  display: none;
+    z-index: 100;
+    img{
+       position:absolute; 
+    }
+    img:nth-of-type(1){
+        top:0;
+        left:0;
+        width:0.6rem;
+    }
+    img:nth-of-type(2){
+        top:0.08rem;
+        left:0.4rem;
+        width:1.12rem;
+    }
+    p{
+        width:50%;
+        font-size:32px;
+        color:#fff;
+        font-style: oblique;
+        margin-top:0.12rem;
+        margin-left:1.2rem;
+        text-align: right;
+
+        span{
+               color:#EED215;
+        }
+    }
+    >span{
+        display: inline-block;
+        width:1.75rem;
+        height:0.5rem;
+        background: #FEB605;
+        text-align: center;
+        font-size:0.24rem;
+        border-radius: 0.4rem;
+        line-height: 0.5rem;
+        color:#fff;
+        position: absolute;
+        right:0.08rem;
+        top:0.32rem;
+    }
+}

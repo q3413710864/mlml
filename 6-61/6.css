@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  width: auto;
+  margin: 0 16px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center; }
+  header div:nth-of-type(1) img {
+    width: 2.2rem;
+    margin: 0.16rem 0.18rem; }
+  header div:nth-of-type(2) {
+    font-size: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -0.8rem; }
+  header div:nth-of-type(3) {
+    align-items: center;
+    text-align: center;
+    margin: 0.16rem 0.18rem; }
+    header div:nth-of-type(3) p:nth-of-type(1) {
+      font-size: 0.4rem;
+      color: #999; }
+    header div:nth-of-type(3) p:nth-of-type(2) {
+      font-size: 0.3rem;
+      margin-top: 0.1rem;
+      color: #999; }
+
+.lun {
+  width: 100%;
+  height: 2.6rem; }
+  .lun img {
+    width: 100%;
+    height: 100%; }
+
+.zhong {
+  width: auto;
+  height: 0.5rem;
+  margin: 0 0.18rem;
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center; }
+  .zhong span {
+    font-size: 0.24rem;
+    margin-left: 0.14rem; }
+
+.xiazi {
+  width: 100%; }
+  .xiazi p:nth-of-type(1) {
+    font-size: 0.36rem;
+    text-align: center;
+    margin-top: 0.36rem; }
+  .xiazi p:nth-of-type(2) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.36rem; }
+    .xiazi p:nth-of-type(2) span:nth-of-type(1) {
+      font-size: 0.28rem; }
+    .xiazi p:nth-of-type(2) span:nth-of-type(2) {
+      font-size: 0.24rem;
+      color: #999999;
+      margin-left: 0.1rem; }
+    .xiazi p:nth-of-type(2) span:nth-of-type(3) {
+      font-size: 0.4rem;
+      margin-left: 0.5rem; }
+    .xiazi p:nth-of-type(2) span:nth-of-type(4) {
+      font-size: 0.24rem;
+      color: #999999;
+      margin-left: 0.2rem; }
+
+.tu {
+  width: auto;
+  margin: 0 0.18rem;
+  margin-top: 0.2rem; }
+  .tu ul {
+    width: 100%;
+    border-top: 0.01rem solid #999;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 0.24rem; }
+    .tu ul li {
+      height: 0.32rem;
+      line-height: 0.32rem;
+      border-radius: 8px;
+      border: 1px solid #999;
+      color: #999;
+      margin: 0.09rem 0.12rem; }
+
+.zi {
+  background: white;
+  width: auto;
+  margin: 0 16px;
+  text-indent: 0.4rem;
+  margin-top: 0.18rem;
+  font-size: 0.24rem;
+  line-height: 0.4rem; }
+
+.datu {
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  margin-top: 0.3rem; }
+  .datu img {
+    width: 5.28rem;
+    height: 3.57rem; }
+
+.zitiao {
+  width: auto;
+  height: 0.7rem;
+  margin: 0.5rem 0.18rem;
+  text-align: center;
+  border: 1px solid #3ac895;
+  color: #3ac895;
+  font-size: 0.36rem;
+  line-height: 0.7rem; }
+
+.made {
+  width: 100%; }
+  .made ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+  .made li {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem; }
+    .made li div {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      text-align: center;
+      border: 0.03rem solid red;
+      display: inline-block; }
+      .made li div span {
+        font-size: 0.58rem;
+        display: block;
+        line-height: 1rem; }
+    .made li p {
+      font-size: 0.24rem;
+      margin-top: 0.2rem; }
+
+.made ul li:nth-of-type(1) div {
+  border: 0.03rem solid #007AFF; }
+  .made ul li:nth-of-type(1) div span {
+    color: #007AFF; }
+.made ul li:nth-of-type(1) p {
+  color: #007AFF; }
+
+.made ul li:nth-of-type(2) div {
+  border: 0.03rem solid yellow; }
+  .made ul li:nth-of-type(2) div span {
+    color: yellow; }
+.made ul li:nth-of-type(2) p {
+  color: yellow; }
+
+.tui {
+  width: auto;
+  margin: 0  0.18rem;
+  border-left: 0.03rem solid  #39C893;
+  margin-top: 0.2rem; }
+  .tui p {
+    font-size: 0.3rem;
+    margin-left: 0.1rem; }
+
+.zhuang {
+  width: auto;
+  margin: 0 0.18rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.39rem;
+  border-bottom: 1px solid #999; }
+
+.zhuang_left {
+  width: 2rem;
+  height: 1.45rem;
+  margin-bottom: 0.36rem; }
+
+.zhuang_left img {
+  width: 100%;
+  height: 100%; }
+
+.zhuang_right {
+  width: 4.9rem;
+  height: 1.45rem; }
+
+.zhuang_right p {
+  font-size: 0.28rem; }
+
+.zhuang_right p:nth-of-type(1) {
+  margin-top: 0.1rem; }
+
+.zhuang_right p span:nth-of-type(1) {
+  margin-right: 0.2rem;
+  font-size: 0.3rem; }
+
+.zhuang_right p span:nth-of-type(2) {
+  margin-right: 0.2rem;
+  font-size: 0.3rem; }
+
+.zhuang_right p:nth-of-type(2) {
+  margin-top: 0.8rem; }
+
+.pp {
+  margin-left: 0.2rem; }
+
+.zi {
+  background: white;
+  width: auto;
+  margin: 0 16px;
+  text-indent: 0.4rem;
+  margin-top: 0.18rem;
+  font-size: 0.28rem;
+  line-height: 0.3rem; }
+
+footer {
+  margin-top: 0.18rem;
+  background: #fff; }
+  footer div {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div span {
+      font-size: 0.32rem; }
+    footer div p {
+      font-size: 0.28rem;
+      color: #333;
+      padding: 0; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.24rem; }
+    footer ul li {
+      font-size: 0.28rem; }
+  footer > p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    padding-bottom: 0.24rem; }
+
+.gg {
+  width: 100%;
+  height: 1.06rem;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  z-index: 100; }
+  .gg img {
+    position: absolute; }
+  .gg img:nth-of-type(1) {
+    top: 0;
+    left: 0;
+    width: 0.6rem; }
+  .gg img:nth-of-type(2) {
+    top: 0.08rem;
+    left: 0.8rem;
+    width: 1.12rem; }
+  .gg p {
+    width: 50%;
+    font-size: 0.32rem;
+    color: #fff;
+    font-style: oblique;
+    margin-top: 0.2rem;
+    margin-left: 1.3rem;
+    text-align: right; }
+    .gg p span {
+      color: #EED215; }
+  .gg > span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #FEB605;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.4rem;
+    line-height: 0.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0.08rem;
+    top: 0.32rem; }
+
+/*# sourceMappingURL=6.css.map */

@@ -1,0 +1,103 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between; }
+  .header .hea_left img {
+    width: 2.2rem; }
+  .header .hea_centent {
+    font-size: 0.4rem;
+    align-items: center;
+    display: flex; }
+  .header .hea_right {
+    font-size: 0.20rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+    .header .hea_right .you1 {
+      height: 0.8rem;
+      margin-top: 0.09rem; }
+      .header .hea_right .you1 span {
+        font-size: 0.40rem; }
+      .header .hea_right .you1 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+    .header .hea_right .you2 {
+      height: 0.8;
+      margin-top: 0.1rem; }
+      .header .hea_right .you2 span {
+        font-size: 0.33rem; }
+      .header .hea_right .you2 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+
+.tp {
+  width: 100%; }
+  .tp img {
+    width: 100%; }
+
+.jg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 0.01rem solid #ccc; }
+  .jg p {
+    font-size: 0.38rem;
+    padding: 0.4rem 0rem; }
+  .jg div {
+    position: absolute;
+    bottom: -0.27rem;
+    left: 42%; }
+    .jg div img {
+      width: 1rem;
+      background: #f7f7f7; }
+
+.wzjs {
+  width: 100%;
+  background: #FFF;
+  margin-top: 0.15rem; }
+  .wzjs .js {
+    width: 97%;
+    margin: auto;
+    padding: 0.36rem 0rem;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #333;
+    text-align: justify; }
+    .wzjs .js p {
+      text-indent: 1rem;
+      line-height: 0.4rem; }
+
+footer {
+  margin-top: 0.18rem;
+  background: #fff; }
+  footer div {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div span {
+      font-size: 0.32rem; }
+    footer div p {
+      font-size: 0.28rem;
+      color: #333;
+      padding: 0; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.24rem; }
+    footer ul li {
+      font-size: 0.28rem; }
+  footer > p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    padding-bottom: 0.24rem; }
+
+/*# sourceMappingURL=index-19.css.map */

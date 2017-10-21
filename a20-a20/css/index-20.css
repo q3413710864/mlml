@@ -1,0 +1,131 @@
+body {
+  background: #F7F7F7; }
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between; }
+  .header .hea_left img {
+    width: 2.2rem; }
+  .header .hea_centent {
+    font-size: 0.4rem;
+    align-items: center;
+    display: flex; }
+  .header .hea_right {
+    font-size: 0.20rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+    .header .hea_right .you1 {
+      height: 0.8rem;
+      margin-top: 0.09rem; }
+      .header .hea_right .you1 span {
+        font-size: 0.40rem; }
+      .header .hea_right .you1 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+    .header .hea_right .you2 {
+      height: 0.8;
+      margin-top: 0.1rem; }
+      .header .hea_right .you2 span {
+        font-size: 0.33rem; }
+      .header .hea_right .you2 p {
+        margin-top: 0.1rem;
+        font-size: 0.16rem; }
+
+.dt {
+  width: 100%; }
+  .dt img {
+    width: 100%;
+    height: 4.2rem; }
+
+.dz {
+  width: 100%;
+  background: #fff; }
+  .dz ul {
+    width: 100%;
+    display: flex; }
+    .dz ul li {
+      width: 50%;
+      padding-top: 0.36rem; }
+      .dz ul li div {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #00BE9C;
+        margin: auto; }
+        .dz ul li div span {
+          font-size: 0.7rem;
+          color: #fff; }
+      .dz ul li p {
+        padding-top: 0.32rem;
+        padding-bottom: 0.45rem;
+        font-size: 0.28rem;
+        text-align: center; }
+
+.ewm {
+  width: 100%; }
+  .ewm div {
+    width: 100%;
+    margin-top: 0.25rem;
+    text-align: center; }
+    .ewm div img {
+      width: 40%; }
+  .ewm p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.45rem; }
+
+.wzjs {
+  width: 100%;
+  background: #FFF;
+  margin-top: 0.15rem; }
+  .wzjs .js {
+    width: 97%;
+    margin: auto;
+    padding: 0.36rem 0rem;
+    font-size: 0.30rem;
+    color: #333;
+    text-align: justify; }
+    .wzjs .js p {
+      text-indent: 1rem;
+      line-height: 0.4rem; }
+
+footer {
+  margin-top: 0.18rem;
+  background: #fff; }
+  footer div {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div span {
+      font-size: 0.32rem; }
+    footer div p {
+      font-size: 0.28rem;
+      color: #333;
+      padding: 0; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.24rem; }
+    footer ul li {
+      font-size: 0.28rem; }
+  footer > p {
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: center;
+    padding-bottom: 0.24rem; }
+
+/*# sourceMappingURL=index-20.css.map */
